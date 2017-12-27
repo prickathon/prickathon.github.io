@@ -1,0 +1,54 @@
+$fa-font-path: "~font-awesome/fonts";
+@import "~font-awesome/scss/font-awesome.scss";
+@import "~skeleton-sass-official/skeleton/core/config";
+// theme variable overrides
+@import "~skeleton-sass-official/skeleton/themes/fresh/vars";
+// theme base styles
+@import "~skeleton-sass-official/skeleton/themes/fresh/include_components";
+// theme grid styles
+@import "~skeleton-sass-official/skeleton/themes/fresh/grid";
+@import url("//fonts.googleapis.com/css?family=Raleway:400,300,600");
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.root-container {
+  padding: 2em;
+}
+
+section {
+  height: 100vh;
+}
+
+.first-section {
+  background: #FFFFBB;
+}
+
+.section-content {
+  padding: 2.0em;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.second-section {
+  background: #BBFFFF;
+}
+
+.hero-image {
+  border-radius: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 60%;
+}
+
+.button {
+  span {
+    color: white;
+  }
+  border: none;
+}

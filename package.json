@@ -1,0 +1,36 @@
+{
+  "name": "prickathon.github.io",
+  "version": "1.0.0",
+  "description": "公式ページみたいなもの",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "build:watch": "./node_modules/.bin/webpack --progress --watch --config webpack.config.js",
+    "browsersync": "./node_modules/.bin/browser-sync start -s --files 'index.html, dist/*.css'",
+    "dev": "npm-run-all -p build:watch browsersync"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prickathon/prickathon.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prickathon/prickathon.github.io/issues"
+  },
+  "homepage": "https://github.com/prickathon/prickathon.github.io#readme",
+  "devDependencies": {
+    "browser-sync": "^2.21.0",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "2.0.0-rc.3",
+    "file-loader": "^0.11.2",
+    "font-awesome": "^4.7.0",
+    "node-sass": "^4.5.0",
+    "npm-run-all": "^4.1.2",
+    "sass-loader": "^5.0.1",
+    "skeleton-sass-official": "^3.1.4",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.9",
+    "webpack": "^2.2.1"
+  }
+}
