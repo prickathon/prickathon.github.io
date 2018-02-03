@@ -18,8 +18,10 @@ html, body {
   padding: 2em;
 }
 
+@media screen and (min-width: 480px) {
 section {
   height: 100vh;
+}
 }
 
 .first-section {
@@ -51,4 +53,34 @@ section {
     color: white;
   }
   border: none;
+}
+
+/* 汎用的なやつ */
+.text-center{
+  text-align: center;
+}
+
+
+/* ナビゲーションメニュー ------------------ */
+#nav {
+  margin: 13px 0 0 0;
+  ul li {
+    display: inline;
+    margin: 0 20px 0 0;
+    margin-bottom: 200px;
+  }
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+.mini-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: 30%;
 }
