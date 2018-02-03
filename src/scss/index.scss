@@ -26,15 +26,19 @@ section {
 }
 }
 
-.first-section {
-  background: #FFFFBB;
-}
-
 .section-content {
   padding: 2.0em;
   width: 70%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.first-section {
+  background: #FFFFBB;
+  .section-content{
+    background: white;
+    background: rgba(255,255,255,.3);
+  }
 }
 
 .second-section {
