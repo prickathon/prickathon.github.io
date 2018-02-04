@@ -20,12 +20,10 @@ html, body {
 
 @media screen and (min-width: 480px) {
 section {
-  height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
 }
-}
-
-.first-section {
-  background: #FFFFBB;
 }
 
 .section-content {
@@ -33,6 +31,14 @@ section {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.first-section {
+  background: #FFFFBB;
+  .section-content{
+    background: white;
+    background: rgba(255,255,255,.3);
+  }
 }
 
 .second-section {
