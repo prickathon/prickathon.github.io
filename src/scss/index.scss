@@ -8,10 +8,11 @@ $fa-font-path: "~font-awesome/fonts";
 // theme grid styles
 @import "~skeleton-sass-official/skeleton/themes/fresh/grid";
 @import url("//fonts.googleapis.com/css?family=Raleway:400,300,600");
-
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
+  font-family: "Raleway";
 }
 
 .root-container {
@@ -19,25 +20,30 @@ html, body {
 }
 
 @media screen and (min-width: 480px) {
-section {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-}
+  section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  .home-content {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .section-content {
   padding: 2.0em;
-  width: 70%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
 }
 
 .first-section {
   background: #FFFFBB;
-  .section-content{
+  .section-content {
     background: white;
-    background: rgba(255,255,255,.3);
+    background: rgba(255, 255, 255, .3);
   }
 }
 
@@ -48,6 +54,7 @@ section {
 .hero-image {
   border-radius: 100%;
   display: block;
+  margin-top: 3.0em;
   margin-left: auto;
   margin-right: auto;
   width: 60%;
@@ -62,18 +69,18 @@ section {
 }
 
 /* 汎用的なやつ */
-.text-center{
+
+.text-center {
   text-align: center;
 }
 
-
 /* ナビゲーションメニュー ------------------ */
+
 #nav {
   margin: 13px 0 0 0;
   ul li {
     display: inline;
     margin: 0 20px 0 0;
-    margin-bottom: 200px;
   }
   a {
     text-decoration: none;
@@ -83,10 +90,29 @@ section {
   }
 }
 
-.mini-image{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
-  height: 30%;
+.row {
+  .mini-image {
+    width: 20%;
+    height: 20%;
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 0.2em;
+  }
+  .text-container {
+    width: 70%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+.entry-row {
+  margin-top: 3.5em;
+}
+
+.prickathon-title {
+  font-size: 2.5em;
+}
+
+.pretty-row {
+  margin-bottom: 1.0em;
 }
