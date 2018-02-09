@@ -8,6 +8,9 @@ $fa-font-path: "~font-awesome/fonts";
 // theme grid styles
 @import "~skeleton-sass-official/skeleton/themes/fresh/grid";
 @import url("//fonts.googleapis.com/css?family=Raleway:400,300,600");
+@import url("//fonts.googleapis.com/earlyaccess/roundedmplus1c.css");
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
 html,
 body {
   height: 100%;
@@ -100,6 +103,7 @@ body {
   }
   .text-container {
     width: 70%;
+    font-size: 0.65em;
     display: inline-block;
     vertical-align: middle;
   }
@@ -109,10 +113,40 @@ body {
   margin-top: 3.5em;
 }
 
-.prickathon-title {
-  font-size: 2.5em;
+.section-heading {
+  font-size: 2.0em;
+  font-weight: 500;
 }
 
 .pretty-row {
   margin-bottom: 1.0em;
+}
+
+.contact-list, .person-list {
+  list-style: none;
+
+  li:before {
+    font-family: FontAwesome;
+    margin-right: 0.5em;
+  }
+
+  .twitter:before, {
+    content: '\f099';
+  }
+
+  .email:before {
+    content: '\f003';
+  }
+
+  .person:before {
+    content: '\f2c0';
+  }
+
+  li a {
+    text-decoration: none;
+  } 
+}
+
+.wf-roundedmplus1c, .wf-roundedmplus1c * {
+  font-family: "Rounded Mplus 1c";
 }
