@@ -51,6 +51,11 @@ body {
 }
 
 .second-section {
+  min-height: none;
+  background: #BBFFBB;
+}
+
+.third-section {
   background: #BBFFFF;
 }
 
@@ -149,4 +154,28 @@ body {
 
 .wf-roundedmplus1c, .wf-roundedmplus1c * {
   font-family: "Rounded Mplus 1c";
+}
+
+.creation-container{
+  .creation-name{
+    font-size: 1.5em;
+    background: #dfefff;
+    box-shadow: 0px 0px 0px 5px #dfefff;
+    border: dashed 2px white;
+    padding: 0.2em 0.5em;
+  }
+  .creation-member{
+    padding-left: 1em;
+  }
+  .creation-detail{
+    padding-left: 1em;
+  }
+  .creation-img{
+    text-align: center;
+  }
+  .creation-img img{
+    border-radius: 10px;
+    max-width:90%;
+    height:200px;
+  }
 }
