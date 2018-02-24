@@ -33,15 +33,13 @@ jobs:
       - run:
           name: Build
           command:
-            npm run build
+            npm run generate
             && mkdir -p /tmp/workspace
-            && cp -r dist assets index.html /tmp/workspace
+            && cp -r dist /tmp/workspace
       - persist_to_workspace:
           root: *workspace_root
           paths:
-            - assets
-            - dist
-            - index.html
+            - dist/*
   deploy:
     <<: *container_config
     steps:
