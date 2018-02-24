@@ -1,0 +1,31 @@
+{
+  "events": [{
+    "title": "第一回",
+    "times": 1,
+    "works": [
+      {
+        "id": 1,
+        "name": "iine-chrome",
+        "authors": ["@e_ntyo", "@otnk_san"],
+        "thumbnailUrl": "/works/iine-chrome/iine-chrome.gif",
+        "description": "Webページにいいね♡が流れるブラウザ拡張",
+        "linkToContent": "https://github.com/entyo/iine-chrome"
+      },
+      {
+        "id": 2,
+        "name": "shop-search",
+        "authors": ["@dairoza", "@takanakahiko"],
+        "thumbnailUrl": "/works/shop-search/shop-search.jpg",
+        "description": "筐体の置いてあるお店の検索を見やすく便利に",
+        "linkToContent": "https://github.com/prickathon/shop-search"
+      },
+      {
+        "id": 3,
+        "name": "プリティオールフレンズ(格闘)",
+        "authors": ["@poikelp"],
+        "thumbnailUrl": "/yume-junbityu.jpg",
+        "description": "ぼくらがプリティーフレンズをつくればええんや"
+      }
+    ]
+  }]
+}

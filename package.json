@@ -1,36 +1,31 @@
 {
   "name": "prickathon.github.io",
   "version": "1.0.0",
-  "description": "公式ページみたいなもの",
+  "description": "Nuxt.js project",
+  "author": "e_ntyo <entyo.contact@gmail.com>",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
-    "build:watch": "./node_modules/.bin/webpack --progress --watch --config webpack.config.js",
-    "browsersync": "./node_modules/.bin/browser-sync start -s --files 'index.html, dist/*.css'",
-    "dev": "npm-run-all -p build:watch browsersync"
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/prickathon/prickathon.github.io.git"
+  "dependencies": {
+    "nuxt": "^1.0.0"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/prickathon/prickathon.github.io/issues"
-  },
-  "homepage": "https://github.com/prickathon/prickathon.github.io#readme",
   "devDependencies": {
-    "browser-sync": "^2.21.0",
-    "css-loader": "^0.26.1",
-    "extract-text-webpack-plugin": "2.0.0-rc.3",
-    "file-loader": "^0.11.2",
+    "axios": "^0.17.1",
+    "babel-eslint": "^8.2.1",
+    "css-loader": "^0.28.9",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0",
     "font-awesome": "^4.7.0",
-    "node-sass": "^4.5.0",
-    "npm-run-all": "^4.1.2",
-    "sass-loader": "^5.0.1",
-    "skeleton-sass-official": "^3.1.4",
-    "style-loader": "^0.13.1",
-    "url-loader": "^0.5.9",
-    "webpack": "^2.2.1"
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "skeleton-sass-official": "^3.1.5"
   }
 }
