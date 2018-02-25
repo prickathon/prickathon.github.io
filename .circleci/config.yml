@@ -39,7 +39,7 @@ jobs:
       - persist_to_workspace:
           root: *workspace_root
           paths:
-            - dist/*
+            - dist
   deploy:
     <<: *container_config
     steps:
@@ -47,7 +47,7 @@ jobs:
       - checkout
       - run:
           name: Deploy to master
-          command: ./scripts/deploy-master.sh /tmp/workspace
+          command: ./scripts/deploy-master.sh /tmp/workspace/dist
 
 workflows:
   version: 2
