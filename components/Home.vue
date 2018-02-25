@@ -22,7 +22,7 @@
         <div class="one-half column">
           <h1 class="section-heading">プリッカソンとは</h1>
           <div class="pretty-row">
-            <img class="mini-image" src="~assets/img/mini-mirei.png">
+            <img class="mini-image" src="/mini/mini-mirei.png">
             <div class="text-container">
               <span>
                 プリパラを技術の面から支えていきたい，
@@ -31,7 +31,7 @@
             </div>
           </div>
           <div class="pretty-row">
-            <img class="mini-image" src="~assets/img/mini-rar.png">
+            <img class="mini-image" src="/mini/mini-rar.png">
             <div class="text-container">
               <span>
                 プリパラと自分の技術を組み合わせて，
@@ -40,7 +40,7 @@
             </div>
           </div>
           <div class="pretty-row">
-            <img class="mini-image" src="~assets/img/mini-sofy.png">
+            <img class="mini-image" src="/mini/mini-sofy.png">
             <div class="text-container">
               <span>
                 み～んなともだち、み～んなハッカー！
@@ -50,7 +50,7 @@
           </div>
         </div>
         <div class="one-half column">
-          <img class="hero-image" src="~assets/img/rar-kashikoma.jpeg">
+          <img class="hero-image" src="/rar-kashikoma.jpeg">
         </div>
       </div>
 
