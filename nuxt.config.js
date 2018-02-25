@@ -35,5 +35,6 @@ module.exports = {
       }
     },
     vendor: ['axios']
-  }
+  },
+  router: { base: '/' }
 }
