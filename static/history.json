@@ -1,6 +1,6 @@
 {
   "events": [{
-    "title": "第一回",
+    "title": "prickathon #1",
     "times": 1,
     "works": [
       {
@@ -25,6 +25,35 @@
         "authors": ["@poikelp"],
         "thumbnailUrl": "/yume-junbityu.jpg",
         "description": "ぼくらがプリティーフレンズをつくればええんや"
+      }
+    ]
+  },{
+    "title": "prickathon #2",
+    "times": 2,
+    "works": [
+      {
+        "id": 4,
+        "name": "priparaDB-firebase",
+        "authors": ["@takanakahiko"],
+        "thumbnailUrl": "/yume-junbityu.jpg",
+        "description": "プリパラの情報を集約するプラットフォームを作ろうという試み",
+        "linkToContent": "https://github.com/prickathon/priparaDB-firebase"
+      },
+      {
+        "id": 5,
+        "name": "PriparaDB-song-ios",
+        "authors": ["@banjun"],
+        "thumbnailUrl": "/yume-junbityu.jpg",
+        "description": "プリパラの曲をスマートに検索するiPhoneアプリ",
+        "linkToContent": "https://github.com/prickathon/PriparaDB-song-ios"
+      },
+      {
+        "id": 6,
+        "name": "priparadb-slack-bot-example",
+        "authors": ["@mtwtkman"],
+        "thumbnailUrl": "/yume-junbityu.jpg",
+        "description": "プリパラDBを用いたSlackアプリケーションのサンプル",
+        "linkToContent": "https://github.com/prickathon/priparadb-slack-bot-example"
       }
     ]
   }]
