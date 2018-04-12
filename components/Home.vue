@@ -56,7 +56,7 @@
 
       <div class="row entry-row">
         <div class="fourteen column text-center">
-          <a class="button button-primary" href="https://prickathon.connpass.com/event/76592/">
+          <a class="button button-primary" href="https://prickathon.connpass.com/">
             <span class="wf-roundedmplus1c">参加登録</span>
           </a>
         </div>
