@@ -18,9 +18,6 @@ jobs:
     <<: *container_config
     steps:
       - checkout
-      - run:
-          name: Install yarn
-          command: sudo npm install -g yarn
       - restore_cache:
           key: dependency-cache-{{ checksum "package.json" }}
       - run:
