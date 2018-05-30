@@ -23,7 +23,6 @@
         "id": 3,
         "name": "プリティオールフレンズ(格闘)",
         "authors": ["@poikelp"],
-        "thumbnailUrl": "/yume-junbityu.jpg",
         "description": "ぼくらがプリティーフレンズをつくればええんや"
       }
     ]
@@ -35,7 +34,6 @@
         "id": 4,
         "name": "priparaDB-firebase",
         "authors": ["@takanakahiko"],
-        "thumbnailUrl": "/yume-junbityu.jpg",
         "description": "プリパラの情報を集約するプラットフォームを作ろうという試み",
         "linkToContent": "https://github.com/prickathon/priparaDB-firebase"
       },
@@ -43,7 +41,6 @@
         "id": 5,
         "name": "PriparaDB-song-ios",
         "authors": ["@banjun"],
-        "thumbnailUrl": "/yume-junbityu.jpg",
         "description": "プリパラの曲をスマートに検索するiPhoneアプリ",
         "linkToContent": "https://github.com/prickathon/PriparaDB-song-ios"
       },
@@ -51,9 +48,28 @@
         "id": 6,
         "name": "priparadb-slack-bot-example",
         "authors": ["@mtwtkman"],
-        "thumbnailUrl": "/yume-junbityu.jpg",
         "description": "プリパラDBを用いたSlackアプリケーションのサンプル",
         "linkToContent": "https://github.com/prickathon/priparadb-slack-bot-example"
+      }
+    ]
+  },{
+    "title": "prickathon #3",
+    "times": 3,
+    "works": [
+      {
+        "id": 7,
+        "name": "priparaDB-firebase",
+        "authors": ["@takanakahiko", "@banjun", "@mtwtkman"],
+        "description": "前回のを引き続き．CircleCIの構築をするなどをしました!",
+        "linkToContent": "https://github.com/prickathon/priparaDB-firebase"
+      },
+      {
+        "id": 8,
+        "name": "キラッと shop search 改造してみた",
+        "authors": ["@yumechi0525"],
+        "thumbnailUrl": "/works/shop-search/shop-search2.png",
+        "description": "プリパラの曲をスマートに検索するiPhoneアプリ",
+        "linkToContent": "https://github.com/prickathon/PriparaDB-song-ios"
       }
     ]
   }]
