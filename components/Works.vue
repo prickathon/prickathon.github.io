@@ -68,13 +68,14 @@ export default {
 .works {
   display: flex;
   list-style: none;
+  flex-wrap:wrap;
 }
 
 .work-container{
-  width: 320px;
+  width: 240px;
   transition: 0.5s;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
   border: 1px solid #ddd;
   border-radius: 4px;
   background: #fff;
