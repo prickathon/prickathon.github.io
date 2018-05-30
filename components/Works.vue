@@ -4,7 +4,7 @@
       <h1 class="section-heading">成果物</h1>
       <ul class="events">
         <li v-for="event in history.events" :key="event.times">
-          {{event.title}}
+          <span class="event-title">{{event.title}}</span>
           <ul class="works">
             <li v-for="work in event.works" :key="work.id">
 
@@ -60,6 +60,9 @@ export default {
 .events {
   overflow-y: scroll;
   max-height: 55vh;
+  .event-title{
+    font-size: 2em;
+  }
 }
 
 .works {
