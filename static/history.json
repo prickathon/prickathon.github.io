@@ -135,6 +135,14 @@
         "thumbnailUrl": "/works/shop-search/shop-search2.png",
         "description": "Vueにマイグレーションしてみたのん！",
         "linkToContent": "https://github.com/prickathon/shop-search"
+      },
+      {
+        "id": 13,
+        "name": "PriEditor",
+        "authors": ["@yuon_pri"],
+        "thumbnailUrl": "/works/PriEditor/PriEditor.png",
+        "description": "筐体の動画の回転とキャプチャをします",
+        "linkToContent": "https://github.com/yuonn/PriEditor"
       }
     ]
   }]
