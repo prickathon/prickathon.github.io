@@ -112,6 +112,13 @@
     "title": "prickathon #4",
     "times": 4,
     "works": [
+      {
+        "id": 10,
+        "name": "PrichanStudio",
+        "authors": ["@banjun"],
+        "description": "コーデが身体に映しだされるんだ〜の研究",
+        "linkToContent": "https://github.com/banjun/PrichanStudio"
+      }
     ]
   }]
 }
