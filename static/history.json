@@ -151,6 +151,14 @@
         "thumbnailUrl": "/works/kashikoma-judge/kashikoma-judge.png",
         "description": "らぁらちゃんを出荷しよう",
         "linkToContent": "https://github.com/gomachan7/kashikoma-judge"
+      },
+      {
+        "id": 15,
+        "name": "プリパラキャラ顔認識",
+        "authors": ["@e_ntyo"],
+        "thumbnailUrl": "/works/pripara-face-recognition/pripara-face-recognition.jpg",
+        "description": "WIPです",
+        "linkToContent": "https://github.com/entyo/opencv-face-recognition-python/tree/pripara"
       }
     ]
   }]
