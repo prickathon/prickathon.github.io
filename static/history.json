@@ -116,6 +116,7 @@
         "id": 10,
         "name": "PrichanStudio",
         "authors": ["@banjun"],
+        "thumbnailUrl": "/works/PrichanStudio/PrichanStudio.jpg",
         "description": "コーデが身体に映しだされるんだ〜の研究",
         "linkToContent": "https://github.com/banjun/PrichanStudio"
       }
