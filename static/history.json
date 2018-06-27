@@ -143,6 +143,14 @@
         "thumbnailUrl": "/works/PriEditor/PriEditor.png",
         "description": "筐体の動画の回転とキャプチャをします",
         "linkToContent": "https://github.com/yuonn/PriEditor"
+      },
+      {
+        "id": 14,
+        "name": "かしこまジャッジ!",
+        "authors": ["@gomachan_77"],
+        "thumbnailUrl": "/works/kashikoma-judge/kashikoma-judge.png",
+        "description": "らぁらちゃんを出荷しよう",
+        "linkToContent": "https://github.com/gomachan7/kashikoma-judge"
       }
     ]
   }]
