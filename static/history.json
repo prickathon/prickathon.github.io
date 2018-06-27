@@ -127,6 +127,14 @@
         "thumbnailUrl": "/works/priStorySearch/priStorySearch.jpeg",
         "description": "プリティーシリーズの各話リストを検索します",
         "linkToContent": "https://github.com/ta-dadadada/priStorySearch"
+      },
+      {
+        "id": 12,
+        "name": "キラッとshop-searchマイグレーションしてみた",
+        "authors": ["@takanakahiko"],
+        "thumbnailUrl": "/works/shop-search/shop-search2.png",
+        "description": "Vueにマイグレーションしてみたのん！",
+        "linkToContent": "https://github.com/prickathon/shop-search"
       }
     ]
   }]
