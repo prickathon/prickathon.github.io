@@ -119,6 +119,14 @@
         "thumbnailUrl": "/works/PrichanStudio/PrichanStudio.jpg",
         "description": "コーデが身体に映しだされるんだ〜の研究",
         "linkToContent": "https://github.com/banjun/PrichanStudio"
+      },
+      {
+        "id": 11,
+        "name": "priStorySearch",
+        "authors": ["@ta_dadadada"],
+        "thumbnailUrl": "/works/priStorySearch/priStorySearch.jpeg",
+        "description": "プリティーシリーズの各話リストを検索します",
+        "linkToContent": "https://github.com/ta-dadadada/priStorySearch"
       }
     ]
   }]
