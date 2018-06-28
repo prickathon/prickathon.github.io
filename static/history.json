@@ -81,34 +81,6 @@
       }
     ]
   },{
-    "title": "prickathon #3",
-    "times": 3,
-    "works": [
-      {
-        "id": 7,
-        "name": "priparaDB-firebase",
-        "authors": ["@takanakahiko", "@banjun", "@mtwtkman"],
-        "description": "前回のを引き続き．CircleCIの構築をするなどをしました!",
-        "linkToContent": "https://github.com/prickathon/priparaDB-firebase"
-      },
-      {
-        "id": 8,
-        "name": "キラッと shop search 改造してみた",
-        "authors": ["@yumechi0525"],
-        "thumbnailUrl": "/works/shop-search/shop-search2.png",
-        "description": "ランダムでキャラクターのモチーフカラーが適用されるようになりました",
-        "linkToContent": "https://github.com/prickathon/shop-search"
-      },
-      {
-        "id": 9,
-        "name": "burning-sword-breaker",
-        "authors": ["@zenmaibane"],
-        "thumbnailUrl": "/works/burning-sword-breaker/burning-sword-breaker.gif",
-        "description": "「ん，じゃあ本当にいつでもPRIDE砕けるようにするか！ｗ」",
-        "linkToContent": "https://zenmaibane.hatenablog.com/entry/2018/05/21/031607"
-      }
-    ]
-  },{
     "title": "prickathon #4",
     "times": 4,
     "works": [
