@@ -80,5 +80,86 @@
         "linkToContent": "https://zenmaibane.hatenablog.com/entry/2018/05/21/031607"
       }
     ]
+  },{
+    "title": "prickathon #3",
+    "times": 3,
+    "works": [
+      {
+        "id": 7,
+        "name": "priparaDB-firebase",
+        "authors": ["@takanakahiko", "@banjun", "@mtwtkman"],
+        "description": "前回のを引き続き．CircleCIの構築をするなどをしました!",
+        "linkToContent": "https://github.com/prickathon/priparaDB-firebase"
+      },
+      {
+        "id": 8,
+        "name": "キラッと shop search 改造してみた",
+        "authors": ["@yumechi0525"],
+        "thumbnailUrl": "/works/shop-search/shop-search2.png",
+        "description": "ランダムでキャラクターのモチーフカラーが適用されるようになりました",
+        "linkToContent": "https://github.com/prickathon/shop-search"
+      },
+      {
+        "id": 9,
+        "name": "burning-sword-breaker",
+        "authors": ["@zenmaibane"],
+        "thumbnailUrl": "/works/burning-sword-breaker/burning-sword-breaker.gif",
+        "description": "「ん，じゃあ本当にいつでもPRIDE砕けるようにするか！ｗ」",
+        "linkToContent": "https://zenmaibane.hatenablog.com/entry/2018/05/21/031607"
+      }
+    ]
+  },{
+    "title": "prickathon #4",
+    "times": 4,
+    "works": [
+      {
+        "id": 10,
+        "name": "PrichanStudio",
+        "authors": ["@banjun"],
+        "thumbnailUrl": "/works/PrichanStudio/PrichanStudio.jpg",
+        "description": "コーデが身体に映しだされるんだ〜の研究",
+        "linkToContent": "https://github.com/banjun/PrichanStudio"
+      },
+      {
+        "id": 11,
+        "name": "priStorySearch",
+        "authors": ["@ta_dadadada"],
+        "thumbnailUrl": "/works/priStorySearch/priStorySearch.jpeg",
+        "description": "プリティーシリーズの各話リストを検索します",
+        "linkToContent": "https://github.com/ta-dadadada/priStorySearch"
+      },
+      {
+        "id": 12,
+        "name": "キラッとshop-searchマイグレーションしてみた",
+        "authors": ["@takanakahiko"],
+        "thumbnailUrl": "/works/shop-search/shop-search2.png",
+        "description": "Vueにマイグレーションしてみたのん！",
+        "linkToContent": "https://github.com/prickathon/shop-search"
+      },
+      {
+        "id": 13,
+        "name": "PriEditor",
+        "authors": ["@yuon_pri"],
+        "thumbnailUrl": "/works/PriEditor/PriEditor.png",
+        "description": "筐体の動画の回転とキャプチャをします",
+        "linkToContent": "https://github.com/yuonn/PriEditor"
+      },
+      {
+        "id": 14,
+        "name": "かしこまジャッジ!",
+        "authors": ["@gomachan_77"],
+        "thumbnailUrl": "/works/kashikoma-judge/kashikoma-judge.png",
+        "description": "らぁらちゃんを出荷しよう",
+        "linkToContent": "https://github.com/gomachan7/kashikoma-judge"
+      },
+      {
+        "id": 15,
+        "name": "プリパラキャラ顔認識",
+        "authors": ["@e_ntyo"],
+        "thumbnailUrl": "/works/pripara-face-recognition/pripara-face-recognition.jpg",
+        "description": "WIPです",
+        "linkToContent": "https://github.com/entyo/opencv-face-recognition-python/tree/pripara"
+      }
+    ]
   }]
 }
