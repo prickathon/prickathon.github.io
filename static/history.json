@@ -133,5 +133,48 @@
         "linkToContent": "https://github.com/entyo/opencv-face-recognition-python/tree/pripara"
       }
     ]
+  },{
+    "title": "prickathon #5",
+    "times": 5,
+    "works": [
+      {
+        "id": 16,
+        "name": "プリティーオールフレンズ誕生日カレンダー",
+        "authors": ["@sue445"],
+        "thumbnailUrl": "/works/prickathon5/sue445.png",
+        "description": " プリティーシリーズ（プリティーリズム、キンプリ、プリパラ、キラッとプリ☆チャン）に登場するキャラの誕生日をまとめたカレンダーぷり",
+        "linkToContent": "https://sue445.github.io/pretty-all-friends-birthday-calendar/"
+      },
+      {
+        "id": 17,
+        "name": "ショートカット「この曲は何話？」",
+        "authors": ["@banjun"],
+        "thumbnailUrl": "/works/prickathon5/banjun.jpg",
+        "description": "プリパラ曲名からプリパラで登場した話数を引くiOS 12ショートカット",
+        "linkToContent": "https://gist.github.com/banjun/59c1a521a655e486bf7dc9bc0c26093b"
+      },
+      {
+        "id": 18,
+        "name": "らぁら、電気つけて",
+        "authors": ["ぶち"],
+        "description": "アレクサに指示すると、真中らぁらが「かしこま」と答えて照明などを操作します。",
+        "linkToContent": "https://youtu.be/bqq0eZbp1TE"
+      },
+      {
+        "id": 19,
+        "name": "プリスタグラム再現してみた！",
+        "authors": ["@saken649"],
+        "thumbnailUrl": "/works/prickathon5/saken649.png",
+        "description": "プリスタグラムが欲しくて自分で作ろうとしてます"
+      },
+      {
+        "id": 20,
+        "name": "priparaDB，CSVから作ってみた！",
+        "authors": ["@takanakahiko"],
+        "thumbnailUrl": "/works/prickathon5/takanakahiko.jpg",
+        "description": "プリパラの情報が詰まっている魔法のCSVをJSONに変換する仕組みを作りました",
+        "linkToContent": "https://github.com/prickathon/webapi-mock-up"
+      }
+    ]
   }]
 }
