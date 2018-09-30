@@ -2,8 +2,8 @@
   <section class="works-section" id="works">
     <div class="section-content wf-roundedmplus1c">
       <h1 class="section-heading">成果物</h1>
-      <ul class="events">
-        <li v-for="event in history.events.reverse()" :key="event.times">
+      <ul :class="['events' , isOpen ? 'is-open' : '']">
+        <li v-for="event in revesedEvents" :key="event.times">
           <span class="event-title">{{event.title}}</span>
           <ul class="works">
             <li v-for="work in event.works" :key="work.id">
@@ -31,6 +31,9 @@
           </ul>
         </li>
       </ul>
+      <div :class="['readmore', isOpen ? 'hidden' : '' ]">
+        <a class="button button-primary" v-on:click="isOpen = true">続きを読む</a>
+      </div>
     </div>
   </section>
 </template>
@@ -38,6 +41,10 @@
 <script>
 export default {
   props: ['history'],
+  data: function(){ return { isOpen:false } },
+  computed: {
+    revesedEvents(){ return this.history.events.slice().reverse() }
+  }
 }
 </script>
 
@@ -58,10 +65,13 @@ export default {
 }
 
 .events {
-  overflow-y: scroll;
-  /*max-height: 55vh;*/
+  overflow-y: hidden;
+  max-height: 55vh;
   .event-title{
     font-size: 2em;
+  }
+  &.is-open{
+    max-height: none;
   }
 }
 
@@ -118,6 +128,12 @@ export default {
     float: left;
     color: #aaa;
   }
+}
+
+.readmore{
+	text-align:center;
+	cursor:pointer;
+	z-index:999;
 }
 
 </style>
