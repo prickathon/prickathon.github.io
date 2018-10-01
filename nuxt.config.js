@@ -11,7 +11,8 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
+    script: [{ src: '/js/404-redirect-ghpages.js' }]
   },
   /*
   ** Customize the progress bar color
@@ -36,5 +37,6 @@ module.exports = {
     },
     vendor: ['axios']
   },
-  router: { base: '/' }
+  router: { base: '/' },
+  mode: 'spa'
 }
