@@ -38,7 +38,8 @@ else
 fi
 
 # copy over or recompile the new site
-cp -r ${siteSource} .
+cp -a ${siteSource}/* .
+cp ${siteSource}/.nojekyll .
 
 # stage any changes and new files
 git add -A
