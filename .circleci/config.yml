@@ -29,10 +29,7 @@ jobs:
             - node_modules
       - run:
           name: Build
-          command:
-            npm run generate
-            && mkdir -p /tmp/workspace
-            && cp -r dist /tmp/workspace
+          command: npm run generate
       - persist_to_workspace:
           root: *workspace_root
           paths:
@@ -44,7 +41,7 @@ jobs:
       - checkout
       - run:
           name: Deploy to master
-          command: ./scripts/deploy-master.sh /tmp/workspace/dist
+          command: npx push-dir --dir=/tmp/workspace/dist --branch=master --cleanup
 
 workflows:
   version: 2
