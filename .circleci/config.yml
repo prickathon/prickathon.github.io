@@ -29,7 +29,10 @@ jobs:
             - node_modules
       - run:
           name: Build
-          command: npm run generate
+          command:
+            npm run generate
+            && mkdir -p /tmp/workspace
+            && cp -r dist /tmp/workspace
       - persist_to_workspace:
           root: *workspace_root
           paths:
@@ -46,7 +49,7 @@ jobs:
             git config --global user.name "$GH_NAME" > /dev/null 2>&1
       - run:
           name: Deploy to master
-          command: npx push-dir --dir=/tmp/workspace/dist --branch=master --cleanup
+          command: push-dir --dir=/tmp/workspace/dist --branch=gh-pages --cleanup
 
 workflows:
   version: 2
