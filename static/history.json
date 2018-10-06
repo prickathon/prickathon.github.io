@@ -174,6 +174,21 @@
         "thumbnailUrl": "/works/prickathon5/takanakahiko.jpg",
         "description": "プリパラの情報が詰まっている魔法のCSVをJSONに変換する仕組みを作りました",
         "linkToContent": "https://github.com/prickathon/webapi-mock-up"
+      },
+      {
+        "id": 21,
+        "name": "puripara alexa yattemita",
+        "authors": ["@yumechi"],
+        "thumbnailUrl": "/works/prickathon5/yumechi.gif",
+        "description": "Alexaがおすすめのプリパラカップリングを教えてくれるよ！",
+        "linkToContent": "https://github.com/yumechi/puripara_alexa_yattemita/"
+      },
+      {
+        "id": 22,
+        "name": "pPriLingo(プリリンゴ)(仮)",
+        "authors": ["さとる@プリ☆チャン"],
+        "description": "プリティーシリーズを題材に外国語を学べるAndoroid(予定)アプリです。",
+        "linkToContent": "https://github.com/Satoru-PriChan/PriLingo"
       }
     ]
   }]
