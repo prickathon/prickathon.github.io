@@ -276,6 +276,15 @@
           ],
           "description": "現状のプリパラDB(仮)でプリパラの曲一覧を表示できるか検証するアプリケーションを作りました",
           "linkToContent": "https://github.com/prickathon/pretty-db-viewer"
+        },
+        {
+          "id": 26,
+          "name": "HolicTrick-blog ブログWebサイト作ってみた",
+          "authors": [
+            "@satoru_pripara"
+          ],
+          "description": "django,pythonに慣れるため簡単なブログwebサイトを作成しました。",
+          "linkToContent": "https://holic-trick-blog.herokuapp.com/"
         }
       ]
     }
