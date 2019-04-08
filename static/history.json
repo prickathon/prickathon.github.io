@@ -287,6 +287,22 @@
           "linkToContent": "https://holic-trick-blog.herokuapp.com/"
         }
       ]
+    },
+    {
+      "title": "prickathon #7",
+      "times": 7,
+      "works": [
+        {
+          "id": 27,
+          "name": "pretty-series-calendar",
+          "authors": [
+            "@yumechi"
+          ],
+          "thumbnailUrl": "/works/prickathon7/yumechi.png",
+          "description": "プリティーシリーズのイベントをまとめるカレンダー作りました",
+          "linkToContent": "https://github.com/yumechi/pretty-series-calendar"
+        }
+      ]
     }
   ]
 }
