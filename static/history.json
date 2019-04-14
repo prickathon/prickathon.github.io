@@ -308,7 +308,7 @@
           "authors": [
             "tokei"
           ],
-          "thumbnailUrl": "/works/prickathon7/yumechi.png",
+          "thumbnailUrl": "/works/prickathon7/zenmaibane.png",
           "description": "VRoid Studio製のうちの子をプリチャンっぽくお着替えさせたいアプリを目指している途中です",
           "linkToContent": "https://github.com/zenmaibane/UchinokoKisekae/blob/master/Assets/readmeResource/screen_to_gif.gif"
         },
@@ -318,7 +318,7 @@
           "authors": [
             "塩キャベツ"
           ],
-          "thumbnailUrl": "/works/prickathon7/yumechi.png",
+          "thumbnailUrl": "/works/prickathon7/siokya.jpg",
           "description": "画像あったらイベント紹介しやすいかなと思って描きました。"
         },
         {
@@ -327,8 +327,9 @@
           "authors": [
             "ぐんそー"
           ],
-          "thumbnailUrl": "/works/prickathon7/yumechi.png",
-          "description": "ARを活用して筐体で便利にあそぶんだもん！"
+          "thumbnailUrl": "/works/prickathon7/sergeant118.jpg",
+          "description": "ARを活用して筐体で便利にあそぶんだもん！",
+          "linkToContent": "https://note.mu/sergeant118/n/n870568000e6f"
         },
         {
           "id": 31,
@@ -336,8 +337,9 @@
           "authors": [
             "ほーい"
           ],
-          "thumbnailUrl": "/works/prickathon7/yumechi.png",
-          "description": "マイキャラちゃんかわいい"
+          "thumbnailUrl": "/works/prickathon7/houiP.JPG",
+          "description": "マイキャラちゃんかわいい",
+          "linkToContent": "https://youtu.be/LrGWJJ-CDjw"
         }
       ]
     }
