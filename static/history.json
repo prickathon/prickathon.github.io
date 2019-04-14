@@ -340,6 +340,16 @@
           "thumbnailUrl": "/works/prickathon7/houiP.JPG",
           "description": "マイキャラちゃんかわいい",
           "linkToContent": "https://youtu.be/LrGWJJ-CDjw"
+        },
+        {
+          "id": 31,
+          "name": "PrismTV",
+          "authors": [
+            "@banjun"
+          ],
+          "thumbnailUrl": "/works/prickathon7/banjun.jpg",
+          "description": "あにてれでライブシーンを無限に再生したい",
+          "linkToContent": "https://github.com/banjun/PrismTV/"
         }
       ]
     }
