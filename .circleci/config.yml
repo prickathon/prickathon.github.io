@@ -1,4 +1,4 @@
-version: 2.0
+version: 2
 
 references:
   container_config: &container_config
@@ -52,7 +52,7 @@ jobs:
           command: npx push-dir --dir=/tmp/workspace/dist --branch=master --cleanup
 
 workflows:
-  version: 2.0
+  version: 2
   build_and_deploy:
     jobs:
       - build
