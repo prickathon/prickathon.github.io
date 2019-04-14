@@ -52,7 +52,7 @@ jobs:
           command: npx push-dir --dir=/tmp/workspace/dist --branch=master --cleanup
 
 workflows:
-  version: 2
+  version: 2.0
   build_and_deploy:
     jobs:
       - build
