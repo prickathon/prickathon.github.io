@@ -301,6 +301,43 @@
           "thumbnailUrl": "/works/prickathon7/yumechi.png",
           "description": "プリティーシリーズのイベントをまとめるカレンダー作りました",
           "linkToContent": "https://github.com/yumechi/pretty-series-calendar"
+        },
+        {
+          "id": 28,
+          "name": "UchinokoKisekae",
+          "authors": [
+            "tokei"
+          ],
+          "thumbnailUrl": "/works/prickathon7/yumechi.png",
+          "description": "VRoid Studio製のうちの子をプリチャンっぽくお着替えさせたいアプリを目指している途中です",
+          "linkToContent": "https://github.com/zenmaibane/UchinokoKisekae/blob/master/Assets/readmeResource/screen_to_gif.gif"
+        },
+        {
+          "id": 29,
+          "name": "プリッカソンバナー",
+          "authors": [
+            "塩キャベツ"
+          ],
+          "thumbnailUrl": "/works/prickathon7/yumechi.png",
+          "description": "画像あったらイベント紹介しやすいかなと思って描きました。"
+        },
+        {
+          "id": 30,
+          "name": "ARコーデ管理やってみたアプリ",
+          "authors": [
+            "ぐんそー"
+          ],
+          "thumbnailUrl": "/works/prickathon7/yumechi.png",
+          "description": "ARを活用して筐体で便利にあそぶんだもん！"
+        },
+        {
+          "id": 31,
+          "name": "マイキャラちゃんARやってみたアプリ",
+          "authors": [
+            "ほーい"
+          ],
+          "thumbnailUrl": "/works/prickathon7/yumechi.png",
+          "description": "マイキャラちゃんかわいい"
         }
       ]
     }
