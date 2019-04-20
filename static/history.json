@@ -350,6 +350,16 @@
           "thumbnailUrl": "/works/prickathon7/banjun.jpg",
           "description": "あにてれでライブシーンを無限に再生したい",
           "linkToContent": "https://github.com/banjun/PrismTV/"
+        },
+        {
+          "id": 33,
+          "name": "Pristagramっぽいの",
+          "authors": [
+            "@saken649"
+          ],
+          "thumbnailUrl": "/works/prickathon7/saken649.jpg",
+          "description": "プリスタグラムを再現したい",
+          "linkToContent": "https://youtu.be/HJfLwYCCbgg"
         }
       ]
     }
