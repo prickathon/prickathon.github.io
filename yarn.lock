@@ -5645,9 +5645,9 @@ simple-swizzle@^0.2.2:
   dependencies:
     is-arrayish "^0.3.1"
 
-skeleton-sass-official@3.1.5:
-  version "3.1.5"
-  resolved "https://registry.yarnpkg.com/skeleton-sass-official/-/skeleton-sass-official-3.1.5.tgz#105b0c3749a279a0e44254f748c3b3da081b8ac0"
+skeleton-sass-official@3.1.6:
+  version "3.1.6"
+  resolved "https://registry.yarnpkg.com/skeleton-sass-official/-/skeleton-sass-official-3.1.6.tgz#823d9a86b8c294ce9d8a67b9dd04e37b0787f9e8"
   dependencies:
     normalize-scss ">=5.0.4"
 
