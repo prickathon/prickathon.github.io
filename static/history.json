@@ -376,6 +376,16 @@
           "thumbnailUrl": "/works/prickathon8/sue445.png",
           "description": "Slackにemoijが登録された時に通知するアプリ",
           "linkToContent": "https://github.com/sue445/emoy_webhook"
+        },
+        {
+          "id": 35,
+          "name": "音声からテキストをDuoDuo",
+          "authors": [
+            "サキ"
+          ],
+          "thumbnailUrl": "/works/prickathon8/yensaki.png",
+          "description": "動画内の音声をテキスト起こしする",
+          "linkToContent": "https://yensaki.hatenablog.com/entry/2019/07/21/235233"
         }
       ]
     }
