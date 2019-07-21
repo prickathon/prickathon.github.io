@@ -362,6 +362,22 @@
           "linkToContent": "https://youtu.be/HJfLwYCCbgg"
         }
       ]
+    },
+    {
+      "title": "prickathon #8",
+      "times": 8,
+      "works": [
+        {
+          "id": 34,
+          "name": "emoy_webhook",
+          "authors": [
+            "sue445"
+          ],
+          "thumbnailUrl": "/works/prickathon8/sue445.png",
+          "description": "Slackにemoijが登録された時に通知するアプリ",
+          "linkToContent": "https://github.com/sue445/emoy_webhook"
+        }
+      ]
     }
   ]
 }
