@@ -389,6 +389,16 @@
         },
         {
           "id": 36,
+          "name": "プリチケ交換サイトつくってみた",
+          "authors": [
+            "nagait84"
+          ],
+          "thumbnailUrl": "/works/prickathon8/nagait84.jpg",
+          "description": "欲しいプリチケを募集したり譲ったりできるサイト",
+          "linkToContent": "https://docs.google.com/presentation/d/1q-qZHlHMZlWL4ThBf0RTcV_TUkO7uqABtdwcv5u2gp4/edit?usp=sharing"
+        },
+        {
+          "id": 37,
           "name": "ARコーデ管理やってみたアプリ ARCore版",
           "authors": [
             "ぐんそー"
@@ -396,7 +406,7 @@
           "thumbnailUrl": "/works/prickathon7/sergeant118.jpg",
           "description": "ARを活用して筐体で便利にあそぶんだもん！",
           "linkToContent": "https://github.com/sergeant118/ARPriItemManager"
-        },
+        }
       ]
     }
   ]
