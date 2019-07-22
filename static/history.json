@@ -396,6 +396,16 @@
           "thumbnailUrl": "/works/prickathon8/nagait84.jpg",
           "description": "欲しいプリチケを募集したり譲ったりできるサイト",
           "linkToContent": "https://docs.google.com/presentation/d/1q-qZHlHMZlWL4ThBf0RTcV_TUkO7uqABtdwcv5u2gp4/edit?usp=sharing"
+        },
+        {
+          "id": 37,
+          "name": "かわいいシールを作れる画像ジェネレータ",
+          "authors": [
+            "nino01"
+          ],
+          "thumbnailUrl": "/works/prickathon8/nino01.jpg",
+          "description": "マイキャラっぽい絵柄のかわいいシールを作成できるWEBアプリ",
+          "linkToContent": "https://github.com/nino010101/kawaii-gen"
         }
       ]
     }
