@@ -406,6 +406,16 @@
           "thumbnailUrl": "/works/prickathon8/nino01.jpg",
           "description": "マイキャラっぽい絵柄のかわいいシールを作成できるWEBアプリ",
           "linkToContent": "https://github.com/nino010101/kawaii-gen"
+        },
+        {
+          "id": 38,
+          "name": "ARコーデ管理やってみたアプリ ARCore版",
+          "authors": [
+            "ぐんそー"
+          ],
+          "thumbnailUrl": "/works/prickathon7/sergeant118.jpg",
+          "description": "ARを活用して筐体で便利にあそぶんだもん！",
+          "linkToContent": "https://github.com/sergeant118/ARPriItemManager"
         }
       ]
     }
