@@ -386,6 +386,16 @@
           "thumbnailUrl": "/works/prickathon8/yensaki.png",
           "description": "動画内の音声をテキスト起こしする",
           "linkToContent": "https://yensaki.hatenablog.com/entry/2019/07/21/235233"
+        },
+        {
+          "id": 36,
+          "name": "プリチケ交換サイトつくってみた",
+          "authors": [
+            "nagait84"
+          ],
+          "thumbnailUrl": "/works/prickathon8/nagait84.jpg",
+          "description": "欲しいプリチケを募集したり譲ったりできるサイト",
+          "linkToContent": "https://docs.google.com/presentation/d/1q-qZHlHMZlWL4ThBf0RTcV_TUkO7uqABtdwcv5u2gp4/edit?usp=sharing"
         }
       ]
     }
