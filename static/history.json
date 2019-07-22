@@ -117,7 +117,7 @@
             "@banjun"
           ],
           "thumbnailUrl": "/works/PrichanStudio/PrichanStudio.jpg",
-          "description": "コーデが身体に映しだされるんだ～の研究",
+          "description": "コーデが身体に映しだされるんだ〜の研究",
           "linkToContent": "https://github.com/banjun/PrichanStudio"
         },
         {
@@ -388,7 +388,7 @@
           "linkToContent": "https://yensaki.hatenablog.com/entry/2019/07/21/235233"
         },
         {
-          "id": 30,
+          "id": 36,
           "name": "ARコーデ管理やってみたアプリ ARCore版",
           "authors": [
             "ぐんそー"
