@@ -426,6 +426,16 @@
 	        "thumbnailUrl": "/works/prickathon8/juginon.png",
 	        "description": "プリティーシリーズを見たらスタンプを押してツイートできるぷり！ loginID: prickathon, pass: manakaLaala",
 	        "linkToContent": "https://expo.io/@prickathon/priStamp"
+        },
+	      {
+	        "id": 40,
+	        "name": "プリティーキャプ画像DB",
+	        "authors": [
+	          "やっち"
+	        ],
+	        "thumbnailUrl": "/works/prickathon8/yacchi.png",
+	        "description": "プリティーシリーズのキャプ画像を検索・投稿できるWEBアプリぷり。定期的にTwitterでつぶやきます(@PriImage)",
+	        "linkToContent": "http://pri-image-db.site/"
 	      }
       ]
     }
