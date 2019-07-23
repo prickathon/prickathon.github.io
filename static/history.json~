@@ -416,17 +416,7 @@
           "thumbnailUrl": "/works/prickathon7/sergeant118.jpg",
           "description": "ARを活用して筐体で便利にあそぶんだもん！",
           "linkToContent": "https://github.com/sergeant118/ARPriItemManager"
-        },
-	{
-	  "id": 39,
-	  "name": "priStamp",
-	  "authors": [
-	    "じゅぎのん"
-	  ],
-	  "thumbnailUrl": "/works/prickathon8/juginon.png",
-	  "description": "プリティーシリーズを見たらスタンプを押してツイートできるぷり！ loginID: prickathon, pass: manakaLaala",
-	  "linkToContent": "https://expo.io/@prickathon/priStamp"
-	 }
+        }
       ]
     }
   ]
