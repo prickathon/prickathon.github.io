@@ -436,7 +436,46 @@
 	        "thumbnailUrl": "/works/prickathon8/yacchi.png",
 	        "description": "プリティーシリーズのキャプ画像を検索・投稿できるWEBアプリぷり。定期的にTwitterでつぶやきます(@PriImage)",
 	        "linkToContent": "http://pri-image-db.site/"
-	      }
+        },
+        {
+          "id": 41,
+          "name": "聖母像",
+          "authors": [
+            "キト(亜種)"
+          ],
+          "thumbnailUrl": "/works/prickathon8/asumu12345.png",
+          "description": "無人の地に聖母を召喚したい一心で錬成した者の狂気"
+        },
+        {
+          "id": 42,
+          "name": "プリチャンコーデ管理スプレッドシート",
+          "authors": [
+            "mikimiki"
+          ],
+          "thumbnailUrl": "/works/prickathon8/mikimiki.png",
+          "description": "誰がどのコーデを持っているか確認できます。 ブランド、タイプで絞り込める検索機能付きです。",
+          "linkToContent": "https://docs.google.com/spreadsheets/d/1s12CHMve7M1zN83s3GEo5EkBOw62aW1Bn16EyvJWujs/edit?usp=sharing"
+        },
+        {
+          "id": 43,
+          "name": "SwiftSparqlのプリズム語彙コード生成",
+          "authors": [
+            "banjun"
+          ],
+          "thumbnailUrl": "/works/prickathon8/banjun.png",
+          "description": "PrismDBの語彙を使ってSwiftSparqlで補完でSPARQLクエリを書けるやつ",
+          "linkToContent": "https://github.com/banjun/SwiftSparql/pull/6"
+        },
+        {
+          "id": 44,
+          "name": "緑川さらちゃんの上半身のみのイラスト",
+          "authors": [
+            "くありす"
+          ],
+          "thumbnailUrl": "/works/prickathon8/kuarisu.png",
+          "description": "制作時間2時間でSaiやペンタブの設定をし、絵を完成できなかったもののよくできたと思っている。さらちゃんは、かわいい。",
+          "linkToContent": "https://github.com/sergeant118/ARPriItemManager"
+        }
       ]
     }
   ]
