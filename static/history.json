@@ -491,6 +491,16 @@
           "thumbnailUrl": "/works/prickathon9/nino01.png",
           "description": "画面を配信してそれにいいねできるWebアプリ",
           "linkToContent": "https://github.com/nino010101/pri_screen"
+        },
+        {
+          "id": 46,
+          "name": "VR虹ノ咲さんなってみたアプリ",
+          "authors": [
+            "ぐんそー"
+          ],
+          "thumbnailUrl": "/works/prickathon9/gunnsou.jpg",
+          "description": "虹ノ咲さんの気持ちで桃山を摂取するスマホVR",
+          "linkToContent": "https://note.mu/sergeant118/n/n16bfbf6b283a"
         }
       ]
     }
