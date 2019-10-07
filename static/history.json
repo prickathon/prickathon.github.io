@@ -12,7 +12,7 @@
             "@otnk_san"
           ],
           "thumbnailUrl": "/works/iine-chrome/iine-chrome.gif",
-          "description": "Webページにいいね♡が流れるブラウザ拡張",
+          "description": "Webページにいいね?が流れるブラウザ拡張",
           "linkToContent": "https://github.com/entyo/iine-chrome"
         },
         {
@@ -117,7 +117,7 @@
             "@banjun"
           ],
           "thumbnailUrl": "/works/PrichanStudio/PrichanStudio.jpg",
-          "description": "コーデが身体に映しだされるんだ〜の研究",
+          "description": "コーデが身体に映しだされるんだ?の研究",
           "linkToContent": "https://github.com/banjun/PrichanStudio"
         },
         {
@@ -491,6 +491,16 @@
           "thumbnailUrl": "/works/prickathon9/nino01.png",
           "description": "画面を配信してそれにいいねできるWebアプリ",
           "linkToContent": "https://github.com/nino010101/pri_screen"
+        },
+        {
+          "id": 46,
+          "name": "VR虹ノ咲さんなってみたアプリ",
+          "authors": [
+            "ぐんそー"
+          ],
+          "thumbnailUrl": "/works/prickathon9/gunnsou.jpg",
+          "description": "虹ノ咲さんの気持ちで桃山を摂取するスマホVR",
+          "linkToContent": "https://note.mu/sergeant118/n/n16bfbf6b283a"
         }
       ]
     }
