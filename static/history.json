@@ -477,6 +477,22 @@
           "linkToContent": "https://github.com/sergeant118/ARPriItemManager"
         }
       ]
+    },
+    {
+      "title": "prickathon #9",
+      "times": 9,
+      "works": [
+        {
+          "id": 45,
+          "name": "pri_screen",
+          "authors": [
+            "nino01"
+          ],
+          "thumbnailUrl": "/works/prickathon9/nino01.png",
+          "description": "画面を配信してそれにいいねできるWebアプリ",
+          "linkToContent": "https://github.com/nino010101/pri_screen"
+        }
+      ]
     }
   ]
 }
