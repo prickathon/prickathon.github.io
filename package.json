@@ -24,7 +24,7 @@
     "eslint-plugin-vue": "6.1.2",
     "font-awesome": "4.7.0",
     "node-sass": "4.13.0",
-    "sass-loader": "8.0.0",
+    "sass-loader": "8.0.1",
     "skeleton-sass-official": "3.1.6"
   }
 }
