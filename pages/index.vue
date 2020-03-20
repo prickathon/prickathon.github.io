@@ -26,13 +26,15 @@ export default {
 </script>
 
 <style lang="scss">
-@import "~skeleton-sass-official/skeleton/core/config";
-// theme variable overrides
-@import "~skeleton-sass-official/skeleton/themes/fresh/vars";
-// theme base styles
-@import "~skeleton-sass-official/skeleton/themes/fresh/include_components";
-// theme grid styles
-@import "~skeleton-sass-official/skeleton/themes/fresh/grid";
+@import "~skeleton-sass-official/src/core/config"; // Skeleton Sass core loader 
+ 
+// import default theme variables 
+@import "~skeleton-sass-official/src/themes/fresh/vars"; // theme variable overrides 
+ 
+// import default theme styles 
+@import "~skeleton-sass-official/src/themes/fresh/include_components"; // theme base styles 
+@import "~skeleton-sass-official/src/themes/fresh/grid"; // theme grid styles 
+
 @import url("//fonts.googleapis.com/css?family=Raleway:400,300,600");
 @import url("//fonts.googleapis.com/earlyaccess/roundedmplus1c.css");
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
