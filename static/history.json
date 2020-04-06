@@ -503,6 +503,86 @@
           "linkToContent": "https://note.mu/sergeant118/n/n16bfbf6b283a"
         }
       ]
+    },
+    {
+      "title": "prickathon online #1",
+      "times": 10,
+      "works": [
+        {
+          "id": 47,
+          "name": "コーデ管理アプリ",
+          "authors": [
+            "@takanakahiko"
+          ],
+          "description": "PrismDBを使ってコーデを管理できるアプリです",
+          "linkToContent": "https://github.com/takanakahiko/pri-checker"
+        },
+        {
+          "id": 48,
+          "name": "PrismDBをテキスト検索やってみたアプリ",
+          "authors": [
+            "@banjun"
+          ],
+          "thumbnailUrl": "/works/prickathon-online1/banjun.jpeg",
+          "description": "PrismDBの語彙のいくつかに対してSPARQLクエリ一発で取ってきます。カジュアルに検索できます。iPhone,iPad,Mac Catalystアプリです。",
+          "linkToContent": "https://github.com/banjun/RDFBrowser/pull/1"
+        },
+        {
+          "id": 49,
+          "name": "prismdb-ruby",
+          "authors": [
+            "@sue445"
+          ],
+          "description": "PrismDBをRubyから使うためのAPIクライアントgem",
+          "linkToContent": "https://github.com/sue445/prismdb-ruby"
+        },
+        {
+          "id": 50,
+          "name": "faker-pretty_series",
+          "authors": [
+            "@sue445"
+          ],
+          "description": "プリティーシリーズのキャラ名などをテストデータなどで使いやすくするためのgem",
+          "linkToContent": "https://github.com/sue445/faker-pretty_series"
+        },
+        {
+          "id": 51,
+          "name": "おしゃべりだいあぱん",
+          "authors": [
+            "@kokuhakuP"
+          ],
+          "description": "だいあぱんがしゃべってくれたりこっち向いたり手をつなごうとしてくるアプリです",
+          "linkToContent": "https://twitter.com/kokuhakuP/status/1239189656044023808"
+        },
+        {
+          "id": 52,
+          "name": "ゼウスになれるカメラ",
+          "authors": [
+            "@rakusan"
+          ],
+          "description": "涼野ユウがライブ中に背中に浮かせているやつが写るカメラ",
+          "linkToContent": "https://twitter.com/rakusan/status/1239123133577101314"
+        },
+        {
+          "id": 53,
+          "name": "だいあぱん検出アプリ",
+          "authors": [
+            "@sergeant118"
+          ],
+          "thumbnailUrl": "/works/prickathon-online1/sergeant118.png",
+          "description": "だいあぱんを検出してバーチャルだいあぱんを召喚するアプリ",
+          "linkToContent": "https://twitter.com/sergeant118/status/1239107922367361028"
+        },
+        {
+          "id": 54,
+          "name": "グッズ交換サイト（続）",
+          "authors": [
+            "@nagait84"
+          ],
+          "description": "プリチケ交換のできるサイトを作ろうとしています",
+          "linkToContent": "https://github.com/nagait84/prism"
+        }
+      ]
     }
   ]
 }
