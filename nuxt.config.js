@@ -18,6 +18,18 @@ module.exports = {
   */
   loading: { color: '#3B8070' },
   /*
+  ** Plugins to load before mounting the App
+  */
+  plugins: [
+    '~plugins/scroll.js',
+  ],
+  /*
+  ** Nuxt.js modules
+  */
+  modules: [
+    'vue-scrollto/nuxt',
+  ],
+  /*
   ** Build configuration
   */
   build: {
@@ -36,5 +48,5 @@ module.exports = {
     },
     vendor: ['axios']
   },
-  router: { base: '/' }
+  router: { base: '/' },
 }
