@@ -583,6 +583,21 @@
           "linkToContent": "https://github.com/nagait84/prism"
         }
       ]
+    },
+    {
+      "title": "prickathon online #2",
+      "times": 11,
+      "works": [
+        {
+          "id": 55,
+          "name": "自作プリモデル+FaceTracking",
+          "authors": [
+            "@yutopp"
+          ],
+          "thumbnailUrl": "/works/prickathon-online2/yutopp.gif",
+          "description": "blenderで自作した3DモデルをFaceTrackingで得たデータでUnityから動かしました"
+        }
+      ]
     }
   ]
 }
