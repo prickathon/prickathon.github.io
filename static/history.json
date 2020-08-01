@@ -605,6 +605,15 @@
           ],
           "thumbnailUrl": "/works/prickathon-online2/takanakahiko.png",
           "description": "めるちゃんを描きました"
+        },
+        {
+          "id": 57,
+          "name": "ARだいあぱんカメラ（仮）",
+          "authors": [
+            "@sergeant118"
+          ],
+          "thumbnailUrl": "/works/prickathon-online2/sergeant118.png",
+          "description": "DepthAPIとバーチャルだいあぱんカメラで遊びました"
         }
       ]
     }
