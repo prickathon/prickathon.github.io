@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "nuxt": "2.14.6",
-    "vue-scrollto": "2.18.2"
+    "vue-scrollto": "2.19.1"
   },
   "devDependencies": {
     "axios": "0.20.0",
