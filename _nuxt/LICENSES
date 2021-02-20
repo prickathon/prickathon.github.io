@@ -1,12 +1,6 @@
 /*!
-  * vue-router v3.4.9
-  * (c) 2020 Evan You
-  * @license MIT
-  */
-
-/*!
-  * vue-scrollto v2.20.0
-  * (c) 2019 Randjelovic Igor
+  * vue-router v3.5.1
+  * (c) 2021 Evan You
   * @license MIT
   */
 
@@ -15,6 +9,13 @@
  * (c) 2014-2020 Evan You
  * Released under the MIT License.
  */
+
+
+/*!
+  * vue-scrollto v2.20.0
+  * (c) 2019 Randjelovic Igor
+  * @license MIT
+  */
 
 /*!
  * vue-client-only v2.0.0
