@@ -22,7 +22,7 @@
     "eslint": "7.32.0",
     "eslint-friendly-formatter": "4.0.1",
     "eslint-loader": "4.0.2",
-    "eslint-plugin-vue": "7.20.0",
+    "eslint-plugin-vue": "9.33.0",
     "font-awesome": "4.7.0",
     "node-sass": "9.0.0",
     "sass-loader": "16.0.5",
