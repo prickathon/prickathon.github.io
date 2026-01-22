@@ -18,14 +18,14 @@
   },
   "devDependencies": {
     "axios": "1.13.2",
-    "@babel/eslint-parser": "7.11.0",
-    "eslint": "7.32.0",
+    "@babel/eslint-parser": "^7.23.0",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.0",
+    "eslint": "^8.57.0",
     "eslint-friendly-formatter": "4.0.1",
-    "eslint-loader": "4.0.2",
     "eslint-plugin-vue": "10.7.0",
     "font-awesome": "4.7.0",
-    "node-sass": "9.0.0",
-    "sass-loader": "16.0.6",
+    "sass": "^1.77.0",
+    "sass-loader": "^10.5.0",
     "skeleton-sass-official": "4.0.0"
   }
 }
