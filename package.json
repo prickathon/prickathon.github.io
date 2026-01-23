@@ -16,6 +16,9 @@
     "nuxt": "^2.18.1",
     "vue-scrollto": "^2.20.0"
   },
+  "overrides": {
+    "crc": "3.8.0"
+  },
   "devDependencies": {
     "@babel/eslint-parser": "^7.28.0",
     "@babel/plugin-proposal-private-property-in-object": "^7.21.0",
