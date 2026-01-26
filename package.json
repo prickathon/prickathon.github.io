@@ -23,7 +23,7 @@
     "@babel/eslint-parser": "^7.28.0",
     "@babel/plugin-proposal-private-property-in-object": "^7.21.0",
     "axios": "^1.13.2",
-    "eslint": "^8.57.0",
+    "eslint": "^9.0.0",
     "eslint-plugin-vue": "^9.33.0",
     "font-awesome": "^4.7.0",
     "sass": "^1.97.0",
