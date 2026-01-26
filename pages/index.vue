@@ -8,8 +8,9 @@
 
 <script setup lang="ts">
 import type { History } from '~/types/history'
+import historyData from '~/public/history.json'
 
-const { data: history } = await useFetch<History>('/history.json')
+const history = ref<History>(historyData as History)
 </script>
 
 <style lang="scss">
