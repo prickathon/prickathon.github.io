@@ -1,16 +1,19 @@
 <template>
   <div>
-    <nuxt/>
+    <slot />
   </div>
 </template>
 
-<script>
-export default {
-  mounted() {
-    const hash = this.$route.hash
-    if (hash && hash.match(/^#.+$/)) {
-      this.$scrollTo(hash)
+<script setup lang="ts">
+const route = useRoute()
+
+onMounted(() => {
+  const hash = route.hash
+  if (hash && hash.match(/^#.+$/)) {
+    const el = document.querySelector(hash)
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth' })
     }
   }
-}
+})
 </script>
