@@ -13,19 +13,21 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "nuxt": "2.16.1",
-    "vue-scrollto": "2.20.0"
+    "nuxt": "^2.18.1",
+    "vue-scrollto": "^2.20.0"
+  },
+  "overrides": {
+    "crc": "3.8.0"
   },
   "devDependencies": {
-    "axios": "1.13.2",
-    "@babel/eslint-parser": "7.11.0",
-    "eslint": "7.32.0",
-    "eslint-friendly-formatter": "4.0.1",
-    "eslint-loader": "4.0.2",
-    "eslint-plugin-vue": "10.7.0",
-    "font-awesome": "4.7.0",
-    "node-sass": "9.0.0",
-    "sass-loader": "16.0.6",
-    "skeleton-sass-official": "4.0.0"
+    "@babel/eslint-parser": "^7.28.0",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.0",
+    "axios": "^1.13.2",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.33.0",
+    "font-awesome": "^4.7.0",
+    "sass": "^1.97.0",
+    "sass-loader": "^10.5.2",
+    "skeleton-sass-official": "^4.0.0"
   }
 }
