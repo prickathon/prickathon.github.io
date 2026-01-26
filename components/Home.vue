@@ -4,7 +4,6 @@
       <div class="row">
         <div id="nav" class="fourteen columns text-center">
           <ul>
-            <!-- TODO: navbar + router の構成に変更する -->
             <li>
               <a href="#home">Home</a>
             </li>
@@ -26,7 +25,7 @@
             <div class="text-container">
               <span>
                 プリパラを技術の面から支えていきたい，
-                <br/>そんな思いから生まれたハッカソン．
+                <br />そんな思いから生まれたハッカソン．
               </span>
             </div>
           </div>
@@ -35,7 +34,7 @@
             <div class="text-container">
               <span>
                 プリパラと自分の技術を組み合わせて，
-                <br/>面白いことをしていきましょう！
+                <br />面白いことをしていきましょう！
               </span>
             </div>
           </div>
@@ -61,15 +60,13 @@
           </a>
         </div>
       </div>
-
     </div>
   </section>
 </template>
 
-<style lang='scss'>
-@import "~assets/css/util";
+<style lang="scss">
+@import "~/assets/css/util";
 
-// TODO: スマホ向けレイアウトをまともにする
 @media screen and (min-width: 480px) {
   section {
     min-height: 100vh;
@@ -84,7 +81,7 @@
 }
 
 .first-section {
-  background: #ffffbb;  
+  background: #ffffbb;
   .hero-image {
     border-radius: 100%;
     display: block;
@@ -105,7 +102,7 @@
   .text-center {
     text-align: center;
   }
-  
+
   #nav {
     margin: 13px 0 0 0;
     ul li {
@@ -139,7 +136,5 @@
   .pretty-row {
     margin-bottom: 1em;
   }
-
 }
 </style>
-

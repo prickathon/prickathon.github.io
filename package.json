@@ -4,30 +4,23 @@
   "description": "Nuxt.js project",
   "author": "e_ntyo <entyo.contact@gmail.com>",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nuxt dev",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint": "eslint .",
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "nuxt": "^2.18.1",
-    "vue-scrollto": "^2.20.0"
-  },
-  "overrides": {
-    "crc": "3.8.0"
+    "nuxt": "^4.3.0"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "^7.28.0",
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.0",
-    "axios": "^1.13.2",
-    "eslint": "^8.57.0",
-    "eslint-plugin-vue": "^9.33.0",
-    "font-awesome": "^4.7.0",
-    "sass": "^1.97.0",
-    "sass-loader": "^10.5.2",
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "@nuxt/eslint": "^1.4.2",
+    "eslint": "^9.39.2",
+    "sass": "^1.97.3",
     "skeleton-sass-official": "^4.0.0"
   }
 }

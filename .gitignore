@@ -6,6 +6,7 @@ npm-debug.log
 
 # Nuxt build
 .nuxt
+.output
 
 # Nuxt generate
 dist

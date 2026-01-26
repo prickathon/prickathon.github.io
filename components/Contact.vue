@@ -4,20 +4,26 @@
       <div class="row">
         <div class="one-half column">
           <h1 class="section-heading wf-roundedmplus1c">お問い合わせ</h1>
-          <p class="wf-roundedmplus1c"><a href="https://prickathon.connpass.com/event/76592/">イベントページ</a>か、以下の連絡先へお願いいたします。</p>
+          <p class="wf-roundedmplus1c">
+            <a href="https://prickathon.connpass.com/event/76592/">イベントページ</a>か、以下の連絡先へお願いいたします。
+          </p>
           <ul class="person-list">
             <li class="person">
               @takanakahiko
               <ul class="contact-list">
                 <li class="email">takanakahiko [at] gmail.com</li>
-                <li class="twitter"><a href="https://twitter.com/takanakahiko">@takanakahiko</a></li>
+                <li class="twitter">
+                  <a href="https://twitter.com/takanakahiko">@takanakahiko</a>
+                </li>
               </ul>
             </li>
             <li class="person">
               @e_ntyo
               <ul class="contact-list">
                 <li class="email">entyo.contact [at] gmail.com</li>
-                <li class="twitter"><a href="https://twitter.com/e_ntyo">@e_ntyo</a></li>
+                <li class="twitter">
+                  <a href="https://twitter.com/e_ntyo">@e_ntyo</a>
+                </li>
               </ul>
             </li>
           </ul>
@@ -27,8 +33,9 @@
   </section>
 </template>
 
-<style lang='scss'>
-@import "~assets/css/util";
+<style lang="scss">
+@import "~/assets/css/util";
+
 @media screen and (min-width: 480px) {
   section {
     min-height: 100vh;
@@ -45,20 +52,22 @@
     list-style: none;
 
     li:before {
-      font-family: FontAwesome;
+      font-family: "Font Awesome 6 Free";
+      font-weight: 900;
       margin-right: 0.5em;
     }
 
     .twitter:before {
+      font-family: "Font Awesome 6 Brands";
       content: "\f099";
     }
 
     .email:before {
-      content: "\f003";
+      content: "\f0e0";
     }
 
     .person:before {
-      content: "\f2c0";
+      content: "\f007";
     }
 
     li a {

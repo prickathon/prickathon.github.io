@@ -1,43 +1,26 @@
 <template>
   <div id="root-container">
-    <Home/>
+    <Home />
     <Works :history="history" />
-    <Contact/>
+    <Contact />
   </div>
 </template>
 
-<script>
-import Home from "~/components/Home.vue";
-import Contact from "~/components/Contact.vue";
-import Works from "~/components/Works.vue";
-import axios from "axios";
-import history from "~/static/history.json";
+<script setup lang="ts">
+import type { History } from '~/types/history'
+import historyData from '~/public/history.json'
 
-export default {
-  components: {
-    Home,
-    Contact,
-    Works
-  },
-  data() {
-    return { history };
-  }
-};
+const history = ref<History>(historyData as History)
 </script>
 
 <style lang="scss">
-@import "~skeleton-sass-official/src/core/config"; // Skeleton Sass core loader 
- 
-// import default theme variables 
-@import "~skeleton-sass-official/src/themes/fresh/vars"; // theme variable overrides 
- 
-// import default theme styles 
-@import "~skeleton-sass-official/src/themes/fresh/include_components"; // theme base styles 
-@import "~skeleton-sass-official/src/themes/fresh/grid"; // theme grid styles 
+@import "skeleton-sass-official/src/core/config";
+@import "skeleton-sass-official/src/themes/fresh/vars";
+@import "skeleton-sass-official/src/themes/fresh/include_components";
+@import "skeleton-sass-official/src/themes/fresh/grid";
 
 @import url("//fonts.googleapis.com/css?family=Raleway:400,300,600");
 @import url("//fonts.googleapis.com/earlyaccess/roundedmplus1c.css");
-@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
 html,
 body {
@@ -46,4 +29,3 @@ body {
   font-family: "Raleway";
 }
 </style>
-
