@@ -33,8 +33,8 @@
   </section>
 </template>
 
-<style lang="scss">
-@import "~/assets/css/util";
+<style>
+@import "~/assets/css/util.css";
 
 @media screen and (min-width: 480px) {
   section {
@@ -46,38 +46,43 @@
 
 .second-section {
   background: #bbffff;
+}
 
-  .contact-list,
-  .person-list {
-    list-style: none;
+.second-section .contact-list,
+.second-section .person-list {
+  list-style: none;
+}
 
-    li:before {
-      font-family: "Font Awesome 6 Free";
-      font-weight: 900;
-      margin-right: 0.5em;
-    }
+.second-section .contact-list li:before,
+.second-section .person-list li:before {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  margin-right: 0.5em;
+}
 
-    .twitter:before {
-      font-family: "Font Awesome 6 Brands";
-      content: "\f099";
-    }
+.second-section .contact-list .twitter:before,
+.second-section .person-list .twitter:before {
+  font-family: "Font Awesome 6 Brands";
+  content: "\f099";
+}
 
-    .email:before {
-      content: "\f0e0";
-    }
+.second-section .contact-list .email:before,
+.second-section .person-list .email:before {
+  content: "\f0e0";
+}
 
-    .person:before {
-      content: "\f007";
-    }
+.second-section .contact-list .person:before,
+.second-section .person-list .person:before {
+  content: "\f007";
+}
 
-    li a {
-      text-decoration: none;
-    }
-  }
+.second-section .contact-list li a,
+.second-section .person-list li a {
+  text-decoration: none;
+}
 
-  .wf-roundedmplus1c,
-  .wf-roundedmplus1c * {
-    font-family: "Rounded Mplus 1c";
-  }
+.second-section .wf-roundedmplus1c,
+.second-section .wf-roundedmplus1c * {
+  font-family: "Rounded Mplus 1c";
 }
 </style>

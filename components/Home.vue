@@ -64,8 +64,8 @@
   </section>
 </template>
 
-<style lang="scss">
-@import "~/assets/css/util";
+<style>
+@import "~/assets/css/util.css";
 
 @media screen and (min-width: 480px) {
   section {
@@ -82,59 +82,63 @@
 
 .first-section {
   background: #ffffbb;
-  .hero-image {
-    border-radius: 100%;
-    display: block;
-    margin-top: 3em;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-    height: 60%;
-  }
+}
 
-  .button {
-    span {
-      color: white;
-    }
-    border: none;
-  }
+.first-section .hero-image {
+  border-radius: 100%;
+  display: block;
+  margin-top: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 60%;
+}
 
-  .text-center {
-    text-align: center;
-  }
+.first-section .button {
+  border: none;
+}
 
-  #nav {
-    margin: 13px 0 0 0;
-    ul li {
-      display: inline;
-      margin: 0 20px 0 0;
-    }
-    a {
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-  }
+.first-section .button span {
+  color: white;
+}
 
-  .row {
-    .mini-image {
-      width: 20%;
-      height: 20%;
-      vertical-align: middle;
-      display: inline-block;
-      margin-left: 0.2em;
-    }
-    .text-container {
-      width: 70%;
-      font-size: 0.65em;
-      display: inline-block;
-      vertical-align: middle;
-    }
-  }
+.first-section .text-center {
+  text-align: center;
+}
 
-  .pretty-row {
-    margin-bottom: 1em;
-  }
+.first-section #nav {
+  margin: 13px 0 0 0;
+}
+
+.first-section #nav ul li {
+  display: inline;
+  margin: 0 20px 0 0;
+}
+
+.first-section #nav a {
+  text-decoration: none;
+}
+
+.first-section #nav a:hover {
+  text-decoration: underline;
+}
+
+.first-section .row .mini-image {
+  width: 20%;
+  height: 20%;
+  vertical-align: middle;
+  display: inline-block;
+  margin-left: 0.2em;
+}
+
+.first-section .row .text-container {
+  width: 70%;
+  font-size: 0.65em;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.first-section .pretty-row {
+  margin-bottom: 1em;
 }
 </style>

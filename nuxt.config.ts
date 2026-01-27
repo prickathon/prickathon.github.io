@@ -19,16 +19,8 @@ export default defineNuxtConfig({
   modules: ['@nuxt/eslint'],
 
   css: [
-    '@fortawesome/fontawesome-free/css/all.css'
-  ],
-
-  vite: {
-    css: {
-      preprocessorOptions: {
-        scss: {
-          api: 'modern-compiler'
-        }
-      }
-    }
-  }
+    '@fortawesome/fontawesome-free/css/all.css',
+    'skeleton-css/css/normalize.css',
+    'skeleton-css/css/skeleton.css'
+  ]
 })

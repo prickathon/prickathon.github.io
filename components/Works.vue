@@ -48,8 +48,8 @@ const reversedEvents = computed(() => {
 })
 </script>
 
-<style lang="scss">
-@import "~/assets/css/util";
+<style>
+@import "~/assets/css/util.css";
 
 @media screen and (min-width: 480px) {
   section {
@@ -66,12 +66,14 @@ const reversedEvents = computed(() => {
 .events {
   overflow-y: hidden;
   max-height: 55vh;
-  .event-title {
-    font-size: 2em;
-  }
-  &.is-open {
-    max-height: none;
-  }
+}
+
+.events .event-title {
+  font-size: 2em;
+}
+
+.events.is-open {
+  max-height: none;
 }
 
 .works {
@@ -98,39 +100,44 @@ const reversedEvents = computed(() => {
   overflow: hidden;
   width: 100%;
   height: auto;
-  .work-thumbnail-img {
-    max-width: 100%;
-  }
+}
+
+.work-thumbnail .work-thumbnail-img {
+  max-width: 100%;
 }
 
 .work-text-content {
   padding: 16px;
   background-color: #eee;
-  .work-name {
-    margin: 0 0 12px 0;
-    font-size: 20px;
-    color: #4cc48e;
-    font-weight: bold;
-    a {
-      color: inherit;
-    }
-  }
-  .work-description {
-    margin: 0 0 12px 0;
-    font-size: 14px;
-    color: #555;
-    font-weight: lighter;
-  }
+}
+
+.work-text-content .work-name {
+  margin: 0 0 12px 0;
+  font-size: 20px;
+  color: #4cc48e;
+  font-weight: bold;
+}
+
+.work-text-content .work-name a {
+  color: inherit;
+}
+
+.work-text-content .work-description {
+  margin: 0 0 12px 0;
+  font-size: 14px;
+  color: #555;
+  font-weight: lighter;
 }
 
 .work-meta {
   overflow: hidden;
   width: 100%;
   font-size: 12px;
-  .work-authors {
-    float: left;
-    color: #aaa;
-  }
+}
+
+.work-meta .work-authors {
+  float: left;
+  color: #aaa;
 }
 
 .readmore {
