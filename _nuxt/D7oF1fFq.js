@@ -1,0 +1,1 @@
+import{d as s,L as n,o as a,y as r,z as c,M as l}from"./0Pmj8b-g.js";const m=s({__name:"default",setup(u){const t=n();return a(()=>{const e=t.hash;if(e&&e.match(/^#.+$/)){const o=document.querySelector(e);o&&o.scrollIntoView({behavior:"smooth"})}}),(e,o)=>(r(),c("div",null,[l(e.$slots,"default")]))}});export{m as default};
