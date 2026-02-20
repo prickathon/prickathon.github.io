@@ -1,1 +1,0 @@
-import{d as s,M as n,o as a,z as r,A as c,N as l}from"./Ck3CTDHD.js";const m=s({__name:"default",setup(u){const t=n();return a(()=>{const e=t.hash;if(e&&e.match(/^#.+$/)){const o=document.querySelector(e);o&&o.scrollIntoView({behavior:"smooth"})}}),(e,o)=>(r(),c("div",null,[l(e.$slots,"default")]))}});export{m as default};
