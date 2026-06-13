@@ -1,0 +1,1 @@
+import{d as s,N as n,o as a,B as r,C as c,O as l}from"./Dit5xdON.js";const m=s({__name:"default",setup(u){const t=n();return a(()=>{const e=t.hash;if(e&&e.match(/^#.+$/)){const o=document.querySelector(e);o&&o.scrollIntoView({behavior:"smooth"})}}),(e,o)=>(r(),c("div",null,[l(e.$slots,"default")]))}});export{m as default};
