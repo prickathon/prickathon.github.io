@@ -1,0 +1,1 @@
+import{I as e,M as t,N as n,f as r,y as i}from"./Dhin0OAn.js";import{f as a}from"./DMrxO6gy.js";var o=i({__name:`default`,setup(i){let o=a();return t(()=>{let e=o.hash;if(e&&e.match(/^#.+$/)){let t=document.querySelector(e);t&&t.scrollIntoView({behavior:`smooth`})}}),(t,i)=>(n(),r(`div`,null,[e(t.$slots,`default`)]))}});export{o as default};
