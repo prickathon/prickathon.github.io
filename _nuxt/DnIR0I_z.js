@@ -1,0 +1,1 @@
+import{_ as e,a as t,h as n,l as r,m as i,p as a}from"#entry";var o=a({__name:`default`,setup(a){let o=t();return i(()=>{let e=o.hash;if(e&&e.match(/^#.+$/)){let t=document.querySelector(e);t&&t.scrollIntoView({behavior:`smooth`})}}),(t,i)=>(n(),r(`div`,null,[e(t.$slots,`default`)]))}});export{o as default};
