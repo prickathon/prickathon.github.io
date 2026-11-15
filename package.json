@@ -21,5 +21,8 @@
     "@nuxt/eslint": "^1.4.2",
     "eslint": "^10.0.0",
     "skeleton-css": "^2.0.4"
+  },
+  "overrides": {
+    "minimatch": "^11.0.8"
   }
 }
